@@ -1,34 +1,227 @@
-.olympicHeader{
-width: 30%;
-margin-top: -30px;
+/* オリンピックのマーク */
+.olympicHeader {
+  width: 30%;
+  margin-top: -30px;
 }
-
-
-
-.headerCenter{
-    list-style: none;
-    display: flex;
+/* HOMEとかの文字 */
+.headerCenter {
+  list-style: none;
+  display: flex;
   justify-content: space-around;
-   margin-left: 400px;
-   margin-right: 50px;
+  margin-left: 400px;
+  margin-right: 50px;
+}
+/* 検索言語機能 */
+.headerRight {
+  text-align: right;
+}
+/* header全体 */
+header {
+  box-shadow: 0px 2px 2px -2px gray;
+}
+
+ 
+/* ４つの画像が移り変わるdivのクラス名 */
+.imgBox {
+  
+  position: relative;
+  padding:10px;
+	height: 1300px;
+  
+}
+/* ４つの画像に共通しているクラス名 */
+.imgChange {
+  position: absolute; 
+  width: 100%;
+  animation: bgAnime infinite  12s;
+animation-delay: 1s;
+
+
 }
 
 
-.headerRight{
-    text-align: right;
-
-}
-header{
-    box-shadow: 0px 2px 2px -2px gray;
-   
-}
+ @keyframes bgAnime {
+  0% { opacity: 1; }
+  20% { opacity: 0; }
+ 45% { opacity: 0; }
+80% { opacity: 0; }
+100% { opacity: 1; }
+} 
 
 .campaign{
-  width: 100%;  
-  height: auto;
-display: block;
-margin: 10px auto;
+  width: 100%;
+  animation-delay: none;
 }
+.japan{
+  animation-delay: 3s;
+}
+.symbol{
+  animation-delay: 6s;
+}
+.player{
+  animation-delay: 9s;
+} 
+
+
+.swiper-wrapper{
+  display: flex;
+}
+
+.sample03 .swiper-button-prev,
+.sample03 .swiper-button-next {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sample03 .swiper-button-prev,
+  .sample03 .swiper-button-next {
+    display: block;
+  }
+}
+
+.slideImg{
+  width: 298px;
+  height: 187px;
+  
+}
+
+h3{
+  font-size: medium;
+  width: 298px;
+  color: white;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+.swiper-slide 
+/* .swiper-slide-active*/
+{
+  display: inline-block;
+  cursor: pointer;
+  width: 298px;
+  height: 187px;
+  background-color: black;
+ 
+}
+
+
+.news{
+font-size: 20px;
+line-height: 40px;
+margin-left: 200px;
+text-decoration: underline;
+}
+
+.olympicNews{
+  display: flex;
+  border-bottom: solid 1px black;
+  padding-bottom: 30px;
+  
+}
+.news1{
+border-top: solid 1px black;
+padding-top: 30px;
+
+}
+
+
+.gamesLeft{
+  padding-top: 7px;
+  color: white;
+  background-color: rgb(141, 10, 10);
+}
+.newsLeft{
+  padding-top: 7px;
+  color: white;
+  background-color: rgb(141, 10, 10);
+}
+.updateLeft{
+  padding-top: 7px;
+  color: white;
+  background-color: rgb(141, 10, 10);
+}
+.pickupLeft{
+  padding-top: 7px;
+  color: white;
+  background-color: rgb(141, 10, 10);
+}
+
+.olympicNews{
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.redTopic{
+  text-align-last: justify;
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+/* .news1::before{
+  content: 'GAMES';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+  width: 30px;
+
+}
+.news2::before {
+  content: 'NEWS';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+
+} 
+
+.news3::before {
+  content: 'NEWS';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+}
+.news4::before{
+  content: 'UPDATE';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+}
+.news5::before{
+  content: 'PICKUP';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+}
+.news6::before {
+  content: 'NEWS';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+}
+.news7::before{
+  content: 'PICKUP';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px;
+}
+.news8::before{
+  content: 'PICKUP';
+  color: white;
+  background-color: rgb(141, 10, 10);
+  padding:5px 10px; 
+} */
+
+
+
+
+
 
 
 
