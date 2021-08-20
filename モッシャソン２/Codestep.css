@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: auto;
+}
+/* .img{
+    max-width: 100%;
+} */
+.headerLeft {
+    display: flex;
+    font-size: 40px;
+    margin: 0 200px;
+}
+
+/* .myWorkHeader{
+    writing-mode: horizontal-tb;
+} */
+
+.headerRight {
+    display: flex;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+.headerList {
+    padding: 10px 10px;
+}
+
+.instagramHeader {
+    width: 20px;
+    height: 20px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.house {
+    /* width: 100%; */
+    width: 100vw;
+}
+
+.title {
+    margin: 100px 200px
+}
+
+.contentTitle {
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.ab {
+    margin: 30px 0;
+}
+
+.img {
+    margin: 10px 10px;
+    width: 291px;
+}
+
+.works {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.newsColumn {
+    display: flex;
+    margin: 20px 0;
+}
+
+.newsTopic {
+    margin-left: 100px;
+}
+
+.contact1 {
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.nameBox {
+    border: black solid 0.5px;
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.contact2 {
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.emailBox {
+    border: black solid 0.5px;
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.contact3 {
+    display: flex;
+}
+
+.messageBox {
+    border: black solid 0.5px;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.send {
+    margin: 20px auto;
+    padding: 20px 70px;
+    display: block;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.send:hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+}
+
+.footerText {
+    text-align: center;
+    color: white;
+    font-size: 5px;
+}
