@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.headerSub {
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    /* line-heightが16*3=48になる　二つとも余白をつけるという同じ意味で使える
+    padding: 5px 0; */
+    line-height: 3em;
+    /* 線の長さが７割になる
+     max-width: 70%;
+    margin: 0 auto;  */
+}
+
+.mainLeft {
+    width: 57%;
+    margin: 0 4%;
+}
+
+.artical {
+    display: flex;
+    border-bottom: 0.5px solid black;
+    margin-top: 20px;
+}
+
+.articalTitle {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.articalContent {
+    padding-left: 5px;
+}
+
+.articalSentence {
+    font-size: 10px;
+}
+
+.articalMore {
+    font-size: 10px;
+    text-decoration: underline;
+    text-align: right;
+    transition: 1s;
+}
+
+.articalMore:hover {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside {
+    width: 27%;
+    margin: 0 4%;
+}
+
+.asideTitle {
+    font-size: 40%;
+}
+
+.asideContent {
+    line-height: 15px;
+    font-size: 50%;
+}
+
+@media screen and (max-width: 896px) {
+    .main {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .mainLeft {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .aside {
+        margin: 30px auto 0;
+        display: flex;
+        width: 80%;
+    }
+    .asideTitle {
+        font-size: 100%;
+    }
+    .asideContent {
+        font-size: 80%;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+} */
