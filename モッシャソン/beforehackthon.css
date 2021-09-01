@@ -1,0 +1,114 @@
+.swiper-container {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+    width: 300px;
+  }
+   
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+   
+  .swiper-slide {
+    flex-shrink: 0;
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    transition-property: transform;
+
+  }
+   
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  }
+
+  
+   
+  .swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: 1000ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+  }
+   
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+  }
+
+
+.swiper-slide img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+/* 上に戻るボタンのcss */
+.button29 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-color: #cccccc;
+    border-radius: 50vh;
+    transition: 0.3s;
+  }
+  
+  .button29 a::after {
+    content: '';
+    width: 3px;
+    height: 3px;
+    border-top: 3px solid #333;
+    border-left: 3px solid #333;
+    transform: rotate(45deg);
+    transition: 0.3s;
+  }
+  
+  .button29 span {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+  
+  .button29 a:hover {
+    background-color: #888888;
+  }
+  
+  .button29 a:hover::after {
+    border-top: 3px solid #f2f2f2;
+    border-left: 3px solid #f2f2f2;
+  }
