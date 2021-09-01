@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputの練習</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+    <h1 class='title'>ご予約はこちらから！</h1>
+    <form>
+        <div class='wid'>
+            <p class='subTitle'>お名前</p>
+            <input type="text" class='box'>
+        </div>
+        <div class='wid'>
+            <p class='subTitle'>メールアドレス</p>
+            <input type="email" name="email" id="email" class='box'>
+        </div>
+        <div class='wid'>
+            <p class='subTitle'>予約メニュー</p>
+            <input type="radio" name="menu" id="cut"><label for="cut">カット</label>
+            <input type="radio" name="menu" id="cutColor"><label for="cutColor">カット＋カラー</label>
+            <input type="radio" name="menu" id="headspa"><label for="headspa">ヘッドスパ</label>
+        </div>
+        <div class='wid'>
+            <p class='subTitle'>ご意見</p>
+            <textarea name="textarea" id="textarea" class='box' cols="30" rows="10"></textarea>
+        </div>
+        <div class='wid'>
+            <input type="button" value="予約する" class='reserve'>
+            <input type="reset" value="リセット" class='reset'>
+        </div>
+    </form>
+
+
+
+
+
+</body>
+
+</html>

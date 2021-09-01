@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    /* text-align: center; */
+    max-width: 100%;
+    list-style: none;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 30px;
+}
+.headerTitle{
+    width: 20%;
+    margin: auto 10% auto 20%;
+}
+.headerUl{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: auto 20% auto 10%;
+}
+.headerList{
+    padding-left: 5%; 
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+.box{
+width: 60%;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.image{
+    margin: 30px auto;
+}
+.aboutImg{
+    padding-left: 0;
+    margin: 30px 0;
+}
+.title{
+    text-align: center;
+}
+.img{
+  width: 30%;
+  margin-top: 10px;
+  
+}
+.dl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.dl dt{
+    width: 20%;
+    border-bottom: 0.5px solid black ;
+padding: 10px 0;
+}
+.dl dd{
+    width: 80%;
+    border-bottom: 0.5px solid black ;
+    padding: 10px 0;
+}
+
+.news{
+    border-bottom: 0.5px solid black;
+}
+.contactDl{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contactDl dt{
+    width: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.contactDl dd {
+    width: 80%;
+}
+.contactDl dd input{
+width: 100%;
+height: 50px;
+}
+.contactDl dd textarea{
+    width: 100%;
+}
+.send{
+    padding: 15px 40px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    margin: 30px auto 100px auto;
+}
+.send:hover{
+    background-color: white;
+    color: rgb(58, 58, 58);
+}
+footer{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: small;
+}
