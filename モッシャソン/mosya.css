@@ -29,11 +29,11 @@ header {
 	height: 1300px;
   
 }
-/* ４つの画像に共通しているクラス名 */
+/* 3つの画像に共通しているクラス名 */
 .imgChange {
   position: absolute; 
   width: 100%;
-  animation: bgAnime infinite  12s;
+  animation: bgAnime infinite  6s;
 animation-delay: 1s;
 
 
@@ -41,11 +41,19 @@ animation-delay: 1s;
 
 
  @keyframes bgAnime {
-  0% { opacity: 1; }
+  /* 0% { opacity: 1; }
   20% { opacity: 0; }
  45% { opacity: 0; }
 80% { opacity: 0; }
-100% { opacity: 1; }
+100% { opacity: 1; } */
+
+0% , 100%{
+  opacity: 1;
+}
+33% , 66%{
+  opacity: 0;
+}
+
 } 
 
 .campaign{
